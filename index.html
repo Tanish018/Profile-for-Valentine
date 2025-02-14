@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <p>
+            D A T I N G &nbsp; P R O F I L E
+        </p>
+    </div>
+    <div class="content">
+        <div class="left">
+            <h1>Hi, I am Tanish Rathore.</h1>
+            <h2 style="cursor: pointer;">Web Developer</h2>
+            <p style="cursor: pointer;" class="tagline">Looking for my Valentine ❤️</p>
+            <p style="cursor: pointer;" >Hey there! I'm a fun-loving, adventurous soul.<br>I’m the full-stack partner you’ve been looking for!<br>  
+                Looking for someone to share laughs, deep conversations, and maybe a romantic dinner this Valentine's! 😊
+            </p>
+            <p class="interests">-: My Interests :-</p>
+            <div class="btns">
+                <button class="intbtns">Coding</button>
+                <button class="intbtns">Gaming</button>
+                <button class="intbtns">Reading</button>
+                <button class="intbtns">Music</button>
+            </div>
+            <div class="connection">
+                <button class="connectbtn">Let's Connect</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="image-container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img class="image" src="Images/profile2.jpg" alt="Profile Image">
+                        </div>
+                        <div class="flip-card-back">
+                            <h2>Beyond the Code, a Heart That Dreams</h2>
+                            <p class="heart">💖</p>
+                            <p>Hey there! I'm Tanish, a dreamer, a builder, and a seeker of deep conversations. In a world of endless lines of code, I find joy in the little moments—laughter over coffee, the thrill of a good book, and the magic of music. If you're looking for someone who can debug your mood and write love stories in JavaScript, let’s connect!</p>
+                            <p>🎀💌</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="con">
+            <p class="connect">Let's Connect</p>
+            <ul>        
+                <li>Contact Me :- &nbsp; +91 8815264857</li>
+                <li>Email Id :- &nbsp; tanishrathore222@gmail.com</li>
+            </ul>
+        </div>
+        <div class="links">
+            <a href="https://www.instagram.com/tanishrathore_18/" target="_blank">
+                <img class="icon" src="Images/download.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/tanish-rathore-98b2391ba/" target="_blank">
+                <img class="icon link" src="Images/download (1).png" alt="">
+            </a>
+            <a href="https://x.com/Tanish_Rathore_" target="_blank">
+                <img class="icon" src="Images/download (2).png" alt="">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector(".connectbtn").addEventListener("click", ()=> {
+            document.querySelector(".connectbtn").style.display = "none";
+            document.querySelector(".footer").style.display = "flex";
+        })
+    </script>
+</body>
+</html>
